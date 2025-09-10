@@ -12,3 +12,5 @@
 - 自動生成 PDF 報告（含中文支援）
 
 ---
+<img width="640" height="480" alt="report_chart" src="https://github.com/user-attachments/assets/0a35a390-0a5c-4ece-9827-8079b2e00984" />
+<img width="800" height="738" alt="image" src="https://github.com/user-attachments/assets/b799c8b9-48e5-42d8-be3c-c809f6135296" />
