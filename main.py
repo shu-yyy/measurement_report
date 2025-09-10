@@ -7,7 +7,7 @@ from reportlab.pdfbase.cidfonts import UnicodeCIDFont
 from datetime import datetime
 import os
 
-# 註冊中文字型 (這裡用 HeiseiMin-W3 日文字型，支援繁體中文也可顯示)
+# 中文字型 
 pdfmetrics.registerFont(UnicodeCIDFont('HeiseiMin-W3'))
 
 # ===== 1. 讀取數據 =====
@@ -53,5 +53,6 @@ story.append(Paragraph("數據圖表:", styles["Heading2"]))
 story.append(Image(chart_path, width=400, height=300))
 
 doc.build(story)
+
 
 print(f"✅ 報告已生成: {os.path.abspath(report_path)}")
